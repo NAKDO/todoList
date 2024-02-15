@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {useState} from 'react';
 import TodoList from './component/todoList';
@@ -6,8 +6,6 @@ import TodoList from './component/todoList';
 function App() {
 
   
-
-
   return (
     <div className={'todolistWrap'}>
       <TodoHead></TodoHead>
